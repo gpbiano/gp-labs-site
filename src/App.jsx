@@ -7,6 +7,7 @@ import CtaSection from "./components/CtaSection.jsx";
 import Clients from "./components/Clients.jsx";
 import Footer from "./components/Footer.jsx";
 import CookieBanner from "./components/CookieBanner.jsx";
+import About from "./components/About.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <ProcessSection />
         <Cases />
         <Clients />
+        <About />
         <CtaSection />
       </main>
       <Footer />

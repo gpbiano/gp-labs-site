@@ -35,11 +35,13 @@ function Header() {
 
           {/* LINKS DESKTOP */}
           <div className="nav-links">
+            <button onClick={() => scrollToId("quem-somos")}>Quem somos</button>
             <button onClick={() => scrollToId("servicos")}>Serviços</button>
             <button onClick={() => scrollToId("processo")}>Como atuamos</button>
             <button onClick={() => scrollToId("cases")}>Resultados</button>
             <button onClick={() => scrollToId("clientes")}>Clientes</button>
             <button onClick={() => scrollToId("contato")}>Contato</button>
+            
 
             <button
               className="btn-primary"
@@ -90,11 +92,13 @@ function Header() {
           className={"nav-links-mobile" + (open ? " show" : "")}
           id="navMobile"
         >
+          <button onClick={() => scrollToId("quem-somos")}>Quem somos</button>
           <button onClick={() => scrollToId("servicos")}>Serviços</button>
           <button onClick={() => scrollToId("processo")}>Como atuamos</button>
           <button onClick={() => scrollToId("cases")}>Resultados</button>
           <button onClick={() => scrollToId("clientes")}>Clientes</button>
           <button onClick={() => scrollToId("contato")}>Contato</button>
+          
 
           <button
             className="btn-primary mobile-cta"

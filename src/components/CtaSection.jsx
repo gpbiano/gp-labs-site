@@ -1,4 +1,5 @@
 import Reveal from "./Reveal.jsx";
+import ContactForm from "./ContactForm.jsx";
 
 function CtaSection() {
   const goWhats = () => {
@@ -13,32 +14,29 @@ function CtaSection() {
   return (
     <section id="contato">
       <div className="container">
-        <Reveal>
-          <div className="cta">
+        <div className="cta-grid">
+          <Reveal>
             <div className="cta-text">
               <h2 className="cta-title">
-                Vamos transformar seu digital em um laboratório de
-                resultados?
+                Vamos transformar seu digital em um laboratório de resultados?
               </h2>
               <p className="cta-subtitle">
-                Conte um pouco da sua empresa, de onde vêm seus
-                clientes hoje e para onde você quer ir. A partir
-                disso, montamos um plano inicial e mostramos por
-                onde começar.
+                Conte um pouco da sua empresa, de onde vêm seus clientes hoje
+                e para onde você quer ir. A partir disso, montamos um plano
+                inicial e mostramos por onde começar.
               </p>
-            </div>
 
-            <div>
-              <button
-                className="btn-whatsapp"
-                onClick={goWhats}
-              >
+              <button className="btn-whatsapp" onClick={goWhats}>
                 <span>💬</span>
                 <span>Chamar no WhatsApp</span>
               </button>
             </div>
-          </div>
-        </Reveal>
+          </Reveal>
+
+          <Reveal delay={1}>
+            <ContactForm />
+          </Reveal>
+        </div>
       </div>
     </section>
   );
