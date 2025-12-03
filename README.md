@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5c21bf89-25e8-43b5-afff-266238f67589/deploy-status)](https://app.netlify.com/sites/gpabs/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c21bf89-25e8-43b5-afff-266238f67589/deploy-status)](https://app.netlify.com/sites/gplabs/deploys)
 
 # GP Labs – Site Institucional
 
