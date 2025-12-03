@@ -1428,3 +1428,64 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* ================================
+   CTA GRID (Contato)
+================================ */
+.cta-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .cta-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ================================
+   BLOCO DE INFORMAÇÕES GP LABS
+================================ */
+.contact-info {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 32px;
+}
+
+.contact-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.contact-desc {
+  font-size: 0.9rem;
+  color: #d1d5db;
+  line-height: 1.45;
+}
+
+.contact-block {
+  margin-top: 8px;
+}
+
+.contact-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+
+.contact-text {
+  font-size: 0.9rem;
+  color: #e5e7eb;
+  line-height: 1.45;
+}
